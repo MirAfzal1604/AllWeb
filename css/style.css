@@ -623,13 +623,7 @@ main {
         margin: 20px 0 0 0;
     }
     .swiper {
-        height: 390px;
-    }
-}
-
-@media screen and (max-width:720px) {
-    .swiper {
-        height: 340px;
+        height: auto;
     }
 }
 
@@ -710,9 +704,6 @@ main {
     .with_what p {
         font-size: 20px;
     }
-    .swiper {
-        height: 300px;
-    }
     .links a {
         font-size: 40px;
         padding: 0px 15px;
@@ -750,10 +741,6 @@ main {
     }
     .content p {
         font-size: 16px;
-    }
-    .swiper {
-        width: 100%;
-        height: 220px;
     }
     .navbar .navul .navli a {
         padding: 6px;
