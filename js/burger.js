@@ -8,5 +8,5 @@ function openNav() {
 
 function navClose() {
     contentWidth.classList.remove("navWidth");
-    burger.classList.remove("change")
+    burger.classList.remove("change");
 }
