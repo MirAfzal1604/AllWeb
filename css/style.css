@@ -505,6 +505,17 @@ main {
     background-position: center;
 }
 
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 23px !important;
+}
+
+.swiperArrows {
+    padding: 30px;
+    background-color: rgb(24, 46, 59);
+    border-radius: 50%;
+}
+
 #AboutMe {
     padding: 30px 0;
 }
@@ -684,7 +695,15 @@ main {
         margin: 20px 0 0 0;
     }
     .swiper {
+        width: 100%;
         height: auto;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 23px !important;
+    }
+    .swiperArrows {
+        padding: 25px;
     }
 }
 
@@ -809,5 +828,17 @@ main {
     }
     .navWidth {
         width: 200px !important;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 0 !important;
+        height: 0 !important;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 15px !important;
+    }
+    .swiperArrows {
+        padding: 15px !important;
     }
 }
